@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <!-- Start CSS CDNs -->
+    <!-- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+     -->
+    <!-- End CSS CDNs -->
+
+    <!-- Start CSS Files -->
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <!-- End CSS Files -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="owl-carousel">
+        <div><img src="picture.jpg" alt="picure"></div>
+        <div><img src="picture.jpg" alt="picure"></div>
+        <div><img src="picture.jpg" alt="picure"></div>
+        <div><img src="picture.jpg" alt="picure"></div>
+        <div><img src="picture.jpg" alt="picure"></div>
+    </div>
+
+
+    <!-- ------- Start Scripts ------- -->
+
+    <!-- Start JS CDNs -->
+    <!-- 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    -->
+    <!-- End JS CDNs -->
+
+    <!-- Start JS Files -->
+    <script src="jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <!-- End JS Files -->
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 2
+                },
+                762: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
