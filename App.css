@@ -1,0 +1,41 @@
+.owl-carousel>.owl-nav>button.owl-next,
+.owl-carousel>.owl-nav>button.owl-prev {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 100%;
+}
+
+.owl-carousel>.owl-nav>button.owl-prev {
+    right: 0;
+}
+
+.owl-carousel>.owl-nav>button.owl-next {
+    left: 0;
+}
+
+.bi-chevron-compact-left,
+.bi-chevron-compact-right {
+    font-size: 30px;
+    color: #fff;
+}
+
+.owl-carousel>.owl-dots {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-carousel>.owl-dots>button.owl-dot>span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 2px 10px;
+}
+
+.owl-carousel>.owl-dots>button.owl-dot.active>span {
+    background-color: tomato;
+}
